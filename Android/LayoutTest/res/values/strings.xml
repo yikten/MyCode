@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="content">付金额为佛额外加分哦无法将饿哦无法将饿哦无法将饿哦无法将饿哦王府井</string>
+    <string name="tv_player">这是一个视频播放器哟.</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+
+</resources>
