@@ -15,8 +15,32 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		Button btn =(Button)this.findViewById(R.id.btnClickA);		
-		btn.setOnClickListener(new MyListener());
+		
+		//1.内部类实现
+		Button btnA =(Button)this.findViewById(R.id.btnClickA);	
+		btnA.setOnClickListener(new MyListener());
+		
+		//2。匿名类实现
+	
+		Button btnB =(Button)this.findViewById(R.id.btnClickB);	
+		btnB.setOnClickListener(new OnClickListener()
+		{
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				switch(v.getId())
+				{
+					case R.id.btnClickB:
+						Toast.makeText(MainActivity.this, "按钮B被点击了.", 0).show();
+						break;
+				}
+			}
+			
+		});
+				
+		Button btnC =(Button)this.findViewById(R.id.btnClickC);	
+		btnC.setOnClickListener(this);
 	}
 
 	@Override
@@ -40,9 +64,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		}	
 	}
 
-	public void ClickB(View v)
+	public void ClickD(View v)
 	{
-		Toast.makeText(this, "按钮B被点击了.", 0).show();
+		Toast.makeText(this, "按钮D被点击了.", 0).show();
 	}
 
 	@Override
@@ -52,6 +76,5 @@ public class MainActivity extends Activity implements OnClickListener {
 		{
 			Toast.makeText(this, "按钮C被点击了", 0).show();
 		}
-		Toast.makeText(this, "按钮被点击了", 0).show();
 	}
 }

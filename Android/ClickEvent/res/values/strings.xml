@@ -7,5 +7,6 @@
     <string name="btnClickA">按钮A</string>
     <string name="btnClickB">按钮B</string>
     <string name="btnTextC">按钮C</string>
+    <string name="btndtext">按钮D</string>
 
 </resources>

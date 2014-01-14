@@ -9,33 +9,40 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/btnClickB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnClickA"
-        android:layout_alignBottom="@+id/btnClickA"
-        android:layout_centerHorizontal="true"
-        android:onClick="ClickB"
-        android:text="@string/btnClickB" />
-
-    <Button
         android:id="@+id/btnClickA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="22dp"
-        android:layout_marginTop="72dp"
-        android:layout_toLeftOf="@+id/btnClickB"
+        android:layout_marginTop="15dp"
         android:text="@string/btnClickA" />
+
+    <Button
+        android:id="@+id/btnClickB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnClickA"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnClickB" />
 
     <Button
         android:id="@+id/btnClickC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnClickB"
-        android:layout_alignBottom="@+id/btnClickB"
-        android:layout_marginLeft="26dp"
-        android:layout_toRightOf="@+id/btnClickB"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnClickB"
+        android:layout_marginTop="31dp"
         android:text="@string/btnTextC" />
+
+    <Button
+        android:id="@+id/btnClickD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnClickC"
+        android:layout_marginTop="30dp"
+        android:onClick="ClickD"
+        android:text="@string/btndtext" />
 
 </RelativeLayout>
