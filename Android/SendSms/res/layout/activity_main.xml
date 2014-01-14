@@ -55,5 +55,7 @@
         android:layout_alignLeft="@+id/et_smscontent"
         android:layout_below="@+id/et_smscontent"
         android:text="@string/btn_send" />
+    
+    
 
 </RelativeLayout>
