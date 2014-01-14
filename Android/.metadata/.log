@@ -1425,6 +1425,7 @@ Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is ou
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-01-14 16:48:34.749
 !MESSAGE Failed to load properties file for project 'GitTest'
 >>>>>>> b5f952162b3fb8b9e2dea6764ff258c107aa3ec8
+<<<<<<< HEAD
 !SESSION 2014-01-14 17:32:51.798 -----------------------------------------------
 eclipse.buildId=v22.3.0-887826
 java.version=1.7.0_40
@@ -1983,3 +1984,5 @@ Caused by: org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element
 	at java.security.AccessController.doPrivileged(Native Method)
 	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
 	... 29 more
+=======
+>>>>>>> 202363a688cdc799e2f65c29da6b4fe91b54983f
