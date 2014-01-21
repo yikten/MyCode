@@ -24,7 +24,7 @@
         android:layout_below="@+id/tv_mobile"
         android:ems="10"
         android:inputType="phone" >
-
+ 
         <requestFocus />
     </EditText>
 
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/et_smscontent"
         android:layout_below="@+id/et_mobile"
-        android:layout_marginTop="16dp"        
+        android:layout_marginTop="16dp"
         android:text="@string/smscontent" />
 
     <EditText
