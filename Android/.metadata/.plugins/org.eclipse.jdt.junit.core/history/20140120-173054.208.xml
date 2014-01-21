@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TextService.TestAdd" project="JUnitTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_n7000-00194a3548239e" time="0.148">
+    <testsuite name="com.example.test.TextService" time="0.148">
+      <testcase name="TestAdd " classname="com.example.test.TextService" time="0.148"/>
+    </testsuite>
+  </testsuite>
+</testrun>

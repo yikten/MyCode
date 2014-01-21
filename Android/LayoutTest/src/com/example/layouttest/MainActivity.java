@@ -13,14 +13,12 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
+        setContentView(R.layout.framelayouttest);
+        //setContentView(R.layout.activity_main);
         
-        setContentView(R.layout.activity_main);
+        Log.d("MainActivity", "logtest");       
         
-        Log.d("MainActivity", "logtest");
-        
-        //setContentView(R.layout.framelayouttest);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
