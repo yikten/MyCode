@@ -1,0 +1,17 @@
+package com.example.login;
+
+import java.io.File;
+
+public class FileHandler {
+
+	public void SaveUserInfo(String username,String userpwd){
+		File  dataFile=new File("/data/data/com.example.login/user.txt");
+		try {
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+	
+}

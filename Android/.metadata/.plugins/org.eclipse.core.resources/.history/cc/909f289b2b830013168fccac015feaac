@@ -1,0 +1,9 @@
+package com.example.login;
+
+public class FileHandler {
+
+	public void SaveUserInfo(String username,String userpwd){
+		
+	}
+	
+}

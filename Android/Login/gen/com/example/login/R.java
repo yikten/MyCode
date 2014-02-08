@@ -26,7 +26,7 @@ public final class R {
     public static final class id {
         public static final int action_settings=0x7f080006;
         public static final int btnLogin=0x7f080005;
-        public static final int checkBox1=0x7f080004;
+        public static final int chk_rempwd=0x7f080004;
         public static final int et_pwd=0x7f080003;
         public static final int et_username=0x7f080001;
         public static final int lblPwd=0x7f080002;
@@ -44,6 +44,7 @@ public final class R {
         public static final int btnLoginText=0x7f050006;
         public static final int chk_rempwd=0x7f050005;
         public static final int hello_world=0x7f050002;
+        public static final int inputhint=0x7f050007;
         public static final int inputname=0x7f050003;
         public static final int inputpwd=0x7f050004;
     }
