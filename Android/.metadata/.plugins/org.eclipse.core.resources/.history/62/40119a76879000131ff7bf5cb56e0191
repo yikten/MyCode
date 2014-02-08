@@ -1,0 +1,7 @@
+import android.app.Activity;
+
+package com.example.twoactivity;
+
+public class OtherAcitvity extends Activity {
+
+}
